@@ -1,0 +1,219 @@
+﻿@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+  display: block;
+}
+
+html, body, h1, h2, h3, style, ul, li, a, p,
+article, aside, footer, header, main, nav, section {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+header {
+  height: 100vh;
+  background-image: url(egy3.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  color: #322F2A;
+  font-size: 50px;
+  font-family: H-OptimaBoldItalic;
+  text-align: left;
+}
+
+hr {
+  color: white;
+  background-color: white;
+  height: 2px;
+}
+
+#image-kar {
+  max-width: 1024px;
+  max-height: 768px;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.starter-text-box {
+  background-color: black;
+  text-align: left;
+}
+
+#hr2 {
+  width: 350px;
+}
+
+#first-title {
+  text-align: center;
+  justify-content: center;
+  padding-top: 55px;
+  padding-bottom: 40px;
+  color: white;
+  font-family: Arial Black;
+  font-size: 30px;
+}
+
+#bevezeto-paragraph {
+  max-width: 800px;
+  max-height: auto;
+  padding-bottom: 70px;
+  line-height: 1.8;
+  position: relative;
+  font-size: 20px;
+  font-family: Times New Roman, bold;
+  color: white;
+  justify-content: center;
+  margin: auto;
+}
+
+
+#programs {
+  text-align: center;
+  color: #3D3D3D;
+  font-family: Arial Black;
+  font-size: 30px;
+  padding-top: 60px;
+  text-decoration: underline;
+}
+
+
+
+#anyil {
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+.aboutcampus-text {
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+#programjaink {
+  margin-top: 30px;
+  font-family: inherit;
+}
+
+
+#ul-links {
+  text-align: center;
+  align-items: center;
+  //background-color: pink;
+  padding: 5%;
+  text-decoration: none;
+  line-height: 2;
+  text-transform: uppercase;
+  display: list-item;
+}
+
+
+#alcimek {
+  text-decoration: none;
+  color: black;
+
+}
+
+
+
+.left-links {
+  position: relative;
+  justify-content: center;
+  background-color: #f8a911;
+  padding-bottom: 0%;
+  text-decoration: none;
+}
+
+
+#omg {
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+#image-about {
+  margin-left: -70px;
+  max-width: 60%;
+  border-radius: 3px;
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+
+
+.about-content{
+  padding: 0em 4em 0.1em 4em;
+  max-width: 100%;
+  background-color: gray;
+  display: inline-flex;
+}
+
+.Iwantedtobeleft {
+  float: right;
+  padding: 5%;
+  font-size: 30px;
+  font-family: Times;
+  padding: 2%;
+  text-align: left;
+  justify-content: center;
+  line-height: 2;
+}
+
+
+#campus-introduce {
+  font-size: 40px;
+  font-family: Times bold;
+  text-transform: uppercase;
+  //padding: 3%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
